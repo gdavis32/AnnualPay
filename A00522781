@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    // Store the amount of pay earned each pay period.
+    double payAmount = 1700.0;
+    
+    // Stoe the number of pay periods in a year.
+    int payPeriods = 26;
+    
+    //Calculate anf store the annual pay. 
+    double annualPay = payAmount * payPeriods;
+    
+    // Display rhe total annual pay on the screen.
+    cout << "The employees annual pay is: $" << annualPay <<endl;
+    
+    return 0;
+}
